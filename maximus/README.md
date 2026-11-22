@@ -17,4 +17,4 @@ Columns: `file, mode, input_bytes, qytte_bytes, qytte_reduction_pct, V's (Zstd 1
 
 Timings depend on the machine that produced them. Every result is decoded and SHA-256 checked.
 
-© Qytte · All Rights Reserved · https://qytte.com
+© Qytte · All Rights Reserved · https://qytte.com/qswift
