@@ -89,15 +89,17 @@ Regardless of whether an archive was compressed using Flash, Turbo, Maximus, or 
 Zero Header Overhead: The decoder directly identifies stream magic bytes (QLZ4, QSPL, QSNP, QSWT, QVM4, QSMP) without needing external metadata wrappers.
 Cross-Platform: Byte-exact identical decompression across C99, C++, Node.js, and WebAssembly.
 
-Open-Source Legacy: QLz
+## Open-Source Legacy: QLz
 For projects requiring an ultra-compact, permissive-licensed C engine, we open-sourced QLz under the MIT license:
 
 Repository: https://github.com/qytqvm/qlz
 Single-Header C99: Drop-in qlz.h with zero external dependencies
 Measured Performance: 7.68% compression advantage over Google Snappy on structured files, with restore speeds exceeding 2,000 MB/s.
 
-Enterprise Licensing & SDK Access
-The commercial QSwift suite (Flash, Turbo, Maximus, Smart Builder, and the Unified Decoder) is distributed via enterprise binary packages and licensed developer SDKs.
+## Enterprise Licensing & SDK Access
+The commercial QSwift suite (Flash, Turbo, Maximus, Smart Builder, and the Unified Decoder) is distributed via enterprise binary packages and licensed developer SDKs. 
+
+## Official Links
 
 Official Website: https://qytte.com
 
