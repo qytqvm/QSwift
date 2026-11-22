@@ -66,4 +66,4 @@ Calculate totals separately for each mode; the same test file appears once for T
 
 Keep training and test sets separate, count the profile cost when discussing total storage, and publish only exactly restored runs. Retain dated reports rather than overwriting earlier baselines.
 
-© 2026 Qytte · All Rights Reserved · https://qytte.com
+© 2026 Qytte · All Rights Reserved · https://qytte.com/qswift
