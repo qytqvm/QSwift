@@ -19,7 +19,7 @@ Looking for our lightweight, single-header C99 LZ77 engine? Check out our free, 
 
 | Product | Target Use Case | Competing Baseline | 30-File Space Saved | Primary Advantage vs Baseline | Restore Speed | Decode RAM |
 |---|---|---|---|---|---|---|
-| **QSwift Flash** | Caches, queues, RPC, streaming | **Snappy** / **LZ4** | **56.9%** | **+8.57% compression advantage** over Snappy | **≈ 2,070 MB/s** | **< 1 MB** (featherweight) |
+| **QSwift Flash** | Caches, queues, RPC, streaming | **Snappy** | **56.9%** | **+8.57% compression advantage** over Snappy | **≈ 2,070 MB/s** | **< 1 MB** (featherweight) |
 | **QSwift Turbo** *(Default)* | Cloud APIs, CDNs, structured logs | **Zstandard Level 3** | **74.1%** | **+13.20% compression advantage** over ZSTD 3 | **up to 1,215 MB/s** | **Same as ZSTD 3** |
 | **QSwift Maximus** | Software delivery, archives, cold data | **Zstandard Level 19** | **79.0%** | **+11.66% compression advantage** over ZSTD 19 | **≈ 290 MB/s** | **≈ 8 MB** |
 | **QSwift Smart Builder** | Repetitive sub-KB events & JSON | **Standalone Compressors** | **71.8% – 87.7%** | **Up to 3× higher density** on small batches | **Instant** | **Minimal** |
