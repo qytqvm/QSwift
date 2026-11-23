@@ -39,7 +39,7 @@ Flash prioritizes decompression bandwidth, allowing downstream applications, cac
 
 ### How to Run & Benchmark
 
-Evaluate files online at [qytte.com/qswift/sandbox](https://qytte.com/qswift/sandbox) or test locally using the pre-compiled `qswift` binary:
+Evaluate files online at [qytte.com/qswift/](https://qytte.com/qswift/) or test locally using the pre-compiled `qswift` binary:
 
 ```bash
 # Compress with Flash mode
