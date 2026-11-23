@@ -40,4 +40,14 @@ Across the entire 30-file mixed test suite (including 21 short scripts and CSS s
 * **Where QLz wins:** Binaries, structured JSON, database dumps, WASM, and multi-megabyte payloads where repeated patterns exist outside Snappy's 64 KB reach. On these workloads, QLz saves tens of kilobytes per file and decompresses up to 86% faster.
 * **Small script snippets (<30 KB):** On tiny text snippets, Snappy's 2-byte tag can be ~20 to 50 bytes smaller, but QLz still retains higher decompression throughput.
 
-© Qytte · All Rights Reserved · https://qytte.com/qswift
+### How to Run & Benchmark
+
+Clone the repository and compile the standalone C harness:
+
+```bash
+# Build the benchmark harness
+gcc -O3 -o qlz-bench example.c
+
+# Run benchmark across target files
+./qlz-bench path/to/files/*
+
