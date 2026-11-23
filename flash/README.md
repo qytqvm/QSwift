@@ -48,3 +48,4 @@ Evaluate files online at [qytte.com/qswift/sandbox](https://qytte.com/qswift/san
 # Decompress and verify round-trip
 ./qswift -d input.qsw -o restored.bin
 
+© Qytte · All Rights Reserved · https://qytte.com/qswift
