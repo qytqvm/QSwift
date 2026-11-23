@@ -17,4 +17,13 @@ Columns: `file, mode, input_bytes, qytte_bytes, qytte_reduction_pct, V's (Zstd 1
 
 Timings depend on the machine that produced them. Every result is decoded and SHA-256 checked.
 
-© Qytte · All Rights Reserved · https://qytte.com/qswift
+### How to Run & Benchmark
+
+Evaluate files online at [qytte.com/qswift/](https://qytte.com/qswift/) or test locally using the pre-compiled `qswift` binary:
+
+```bash
+# Compress with Maximus mode (multi-threaded search)
+./qswift -e input.tar -o input.qsw --mode maximus -T 8
+
+# Restore with unified decoder
+./qswift -d input.qsw -o restored.tar -T 8
