@@ -37,4 +37,14 @@ Flash prioritizes decompression bandwidth, allowing downstream applications, cac
 | `api_handler.php` | 76,539 B | **17,149 B** | 17,958 B | **4.50% advantage** | **7,630 MB/s** vs 2,558 MB/s (**+198% faster**) |
 | `analytics_module.wasm` | 95,141 B | **27,817 B** | 28,936 B | **3.87% advantage** | **5,905 MB/s** vs 2,190 MB/s (**+170% faster**) |
 
-© Qytte · All Rights Reserved · https://qytte.com/qswift
+### How to Run & Benchmark
+
+Evaluate files online at [qytte.com/qswift/sandbox](https://qytte.com/qswift/sandbox) or test locally using the pre-compiled `qswift` binary:
+
+```bash
+# Compress with Flash mode
+./qswift -e input.bin -o input.qsw --mode flash
+
+# Decompress and verify round-trip
+./qswift -d input.qsw -o restored.bin
+
