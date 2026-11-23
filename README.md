@@ -10,6 +10,12 @@ All four commercial QSwift modes are unified under a single zero-overhead decode
 - **QSwift Maximus** — Peak density for write-once, read-many storage (archives, distribution)
 - **QSwift Smart Builder** — Schema and profile training for enterprise batches of repetitive files
 
+One lossless compression package for the gaps between speed, space and deployment cost. Choose Flash for hot-path speed, Turbo for everyday data or Maximus for tighter archives—then restore every mode with one unified decoder. Built for cloud storage, caches, data pipelines and software delivery, QSwift combines fast recovery and lightweight decoding with Smart Builder profiles trained on batches of your own files.
+
+
+Smart Builder goes beyond standard compression on similar files. In our generated webhook test, Turbo with a trained profile increased reduction from 38.4% to 79.4%—about 66.6% less remaining data than normal Turbo output. It re-encodes the original files with a shared profile, rather than recompressing arbitrary archives; the profile is needed to restore them. See the measured batches.
+
+
 Looking for our lightweight, single-header C99 LZ77 engine? Check out our free, open-source project:  
 👉 **[QLz on GitHub](https://github.com/qytqvm/qlz/)** (MIT licensed, zero dependencies).
 
